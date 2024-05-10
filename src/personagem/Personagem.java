@@ -1,5 +1,10 @@
 package personagem;
 
+import personagem.atributo.Atributo;
+import personagem.classe.Classe;
+import personagem.especie.Especie;
+import personagem.poder.Poder;
+
 public class Personagem {
     private String nome;
     private Especie especie;

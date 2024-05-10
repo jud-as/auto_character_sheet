@@ -1,15 +1,15 @@
-package personagem;
+package personagem.poder;
 
 public class Poder {
     private String nome;
     private String tipo;
-    private int dano;
+    private int modificador;
 
 
-    public Poder(String nome, String tipo, int dano) {
+    public Poder(String nome, String tipo, int modificador) {
         this.nome = nome;
         this.tipo = tipo;
-        this.dano = dano;
+        this.modificador = modificador;
     }
 
 
@@ -29,12 +29,12 @@ public class Poder {
         this.tipo = tipo;
     }
 
-    public int getDano() {
-        return dano;
+    public int getModificador() {
+        return modificador;
     }
 
-    public void setDano(int dano) {
-        this.dano = dano;
+    public void setModificador(int modificador) {
+        this.modificador = modificador;
     }
 
 
@@ -42,7 +42,7 @@ public class Poder {
         return  "Poder{" +
                 "nome='" + nome + '\'' +
                 ", tipo='" + tipo + '\'' +
-                ", dano=" + dano +
+                ", modificador=" + modificador +
                 '}';
     }
 }

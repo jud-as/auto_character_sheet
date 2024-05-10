@@ -1,4 +1,6 @@
-package personagem;
+package personagem.classe;
+
+import personagem.atributo.Atributo;
 
 public class Classe {
 
@@ -33,6 +35,14 @@ public class Classe {
                 "nome='" + nome + '\'' +
                 ", atributosIniciais=" + atributosIniciais +
                 '}';
+    }
+
+    public void defAtributos(){
+        if(this.atributosIniciais.getValor() + 2 < this.atributosIniciais.getValorMaximo()){
+            this.atributosIniciais.incremento(2);
+        }else{
+            System.out.println("Valor máximo de atributo já atribuído.");
+        }
     }
 }
 

@@ -1,9 +1,9 @@
-package personagem;
+package personagem.atributo;
 
 public class Atributo{
     private String nome;
     private int valor;
-    private final int valorMaximo = 20;
+    private int valorMaximo = 10;
 
 
     public Atributo(String nome, int valor) {
@@ -39,7 +39,25 @@ public class Atributo{
                 ", valorMaximo=" + valorMaximo +
                 '}';
     }
+
+    public void incremento(int incremento){
+        if (incremento + this.getValor() <= this.getValorMaximo()){
+            this.valor += incremento;
+        }else{
+            System.out.println("Valor máximo de atributo já atribuido.");
+        }
+    }
+
+    public void decremento(int decremento){
+        if (this.getValor() - decremento >= 0){
+            this.valor -= decremento;
+        }else{
+            System.out.println("Valor mínimo de atributo já atribuido.");
+        }
+    }
 }
+
+
 
 
 

@@ -1,4 +1,6 @@
-package personagem;
+package personagem.especie;
+
+import personagem.atributo.Atributo;
 
 public class Especie {
     private String nome;

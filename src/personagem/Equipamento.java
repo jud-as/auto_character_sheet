@@ -1,5 +1,7 @@
 package personagem;
 
+import personagem.atributo.Atributo;
+
 public class Equipamento {
 
     private String nome;
