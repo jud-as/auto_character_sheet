@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c01124dd-b169-498a-b591-83955a2e4855" name="Changes" comment="classes e atributos inicializados">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ficha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ficha.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/personagem/classe/Classe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personagem/classe/Classe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/personagem/especie/Especie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personagem/especie/Especie.java" afterDir="false" />
-    </list>
+    <list default="true" id="c01124dd-b169-498a-b591-83955a2e4855" name="Changes" comment="classes e atributos inicializados transferidos para Controlador" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +89,7 @@
       <workItem from="1715188047781" duration="989000" />
       <workItem from="1715189538177" duration="3541000" />
       <workItem from="1715344539404" duration="3141000" />
-      <workItem from="1715354942557" duration="4232000" />
+      <workItem from="1715354942557" duration="5017000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
@@ -120,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715345990326</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="classes e atributos inicializados transferidos para Controlador">
+      <option name="closed" value="true" />
+      <created>1715360388247</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715360388247</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +135,11 @@
         <entry key="Branch">
           <value>
             <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="develop" />
+                </option>
+              </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
                   <option value="stable" />
@@ -173,7 +181,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="HEAD" />
+                        <option value="develop" />
                       </list>
                     </value>
                   </entry>
@@ -200,6 +208,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
     <MESSAGE value="classes e atributos inicializados" />
-    <option name="LAST_COMMIT_MESSAGE" value="classes e atributos inicializados" />
+    <MESSAGE value="classes e atributos inicializados transferidos para Controlador" />
+    <option name="LAST_COMMIT_MESSAGE" value="classes e atributos inicializados transferidos para Controlador" />
   </component>
 </project>

@@ -66,9 +66,11 @@ public class Ficha {
         System.out.println("\nNome: ");
         String nome = input.next();
         System.out.println("\nEspécie: ");
-        String especie = input.next();
+        int especie = input.nextInt();
+        System.out.println("\nClasse: ");
+        int classe = input.nextInt();
 
-        Personagem personagem = new Personagem(nome, ,controlador.initClass(1), )
+        Personagem personagem = new Personagem(nome, controlador.initEspecie(especie),controlador.initClass(classe), )
     }
 
 }
