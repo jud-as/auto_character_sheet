@@ -35,4 +35,14 @@ public class Especie {
                 ", atributosIniciais=" + atributosIniciais +
                 '}';
     }
+
+    public void defAtributos(){
+        if(this.atributosIniciais.getValor() + 1 < this.atributosIniciais.getValorMaximo()){
+            this.atributosIniciais.incremento(1);
+        }else{
+            System.out.println("Valor máximo de atributo já atribuído.");
+        }
+    }
+
+
 }

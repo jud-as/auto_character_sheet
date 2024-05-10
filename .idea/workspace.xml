@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c01124dd-b169-498a-b591-83955a2e4855" name="Changes" comment="First Commit">
+    <list default="true" id="c01124dd-b169-498a-b591-83955a2e4855" name="Changes" comment="classes e atributos inicializados">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ficha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ficha.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/personagem/Atributo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personagem/atributo/Atributo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/personagem/Classe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personagem/classe/Classe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/personagem/Equipamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personagem/Equipamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/personagem/Especie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personagem/especie/Especie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/personagem/Personagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personagem/Personagem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/personagem/Poder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personagem/poder/Poder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personagem/classe/Classe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personagem/classe/Classe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personagem/especie/Especie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personagem/especie/Especie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +23,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_COMMON_BRANCH" value="master" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
@@ -56,22 +53,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/guilh/OneDrive/Área de Trabalho/Serial Experiments/java/GUILHERME YAGO VALENTE UC22200104/ficha_rpg/ficha_rpg",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/guilh/OneDrive/Área de Trabalho/Serial Experiments/java/GUILHERME YAGO VALENTE UC22200104/ficha_rpg/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/guilh/OneDrive/Área de Trabalho/Serial Experiments/java/GUILHERME YAGO VALENTE UC22200104/ficha_rpg/ficha_rpg&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/guilh/OneDrive/Área de Trabalho/Serial Experiments/java/GUILHERME YAGO VALENTE UC22200104/ficha_rpg/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -96,7 +93,8 @@
       <workItem from="1715171159893" duration="3764000" />
       <workItem from="1715188047781" duration="989000" />
       <workItem from="1715189538177" duration="3541000" />
-      <workItem from="1715344539404" duration="1398000" />
+      <workItem from="1715344539404" duration="3141000" />
+      <workItem from="1715354942557" duration="4232000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
@@ -114,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715019440848</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="classes e atributos inicializados">
+      <option name="closed" value="true" />
+      <created>1715345990326</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715345990326</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,7 +173,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="HEAD" />
                       </list>
                     </value>
                   </entry>
@@ -193,6 +199,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+    <MESSAGE value="classes e atributos inicializados" />
+    <option name="LAST_COMMIT_MESSAGE" value="classes e atributos inicializados" />
   </component>
 </project>

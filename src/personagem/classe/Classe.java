@@ -31,10 +31,10 @@ public class Classe {
 
 
     public String toString() {
-        return  "Classe{" +
-                "nome='" + nome + '\'' +
-                ", atributosIniciais=" + atributosIniciais +
-                '}';
+        return  "\nClasses:" +
+                "\n1 - Mago" +
+                "\n2 - Guerreiro" +
+                "\n3 - Ladino";
     }
 
     public void defAtributos(){

@@ -12,7 +12,10 @@ import java.util.Scanner;
 public class Ficha {
 
     static Scanner input = new Scanner(System.in);
+    static Controlador controlador = new Controlador();
     static ArrayList<Personagem>arrayPersonagens;
+
+
     public static void main(String[] args) {
         arrayPersonagens = new ArrayList<>();
         operacoes();
@@ -56,18 +59,7 @@ public class Ficha {
         }
     }
 
-    public static void init(){
 
-        //Inicializando Atributos
-        Atributo forca = new Atributo("Força", 0);
-        Atributo inteligencia = new Atributo("Inteligência", 0);
-        Atributo hp = new Vida("HP", 0);
-
-        //Inicializando Classes:
-        Classe mago = new Mago("Mago", inteligencia); mago.defAtributos();
-        Classe guerreiro = new Guerreiro("Guerreiro", hp); guerreiro.defAtributos();
-        Classe ladino = new Ladino("Ladino", forca); ladino.defAtributos();
-    }
 
     public static void criarPersonagem() {
 
@@ -76,7 +68,7 @@ public class Ficha {
         System.out.println("\nEspécie: ");
         String especie = input.next();
 
-        Personagem personagem = new Personagem(nome)
+        Personagem personagem = new Personagem(nome, ,controlador.initClass(1), )
     }
 
 }
