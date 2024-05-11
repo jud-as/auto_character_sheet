@@ -5,12 +5,16 @@ import personagem.atributo.Atributo;
 public class Classe {
 
     private String nome;
-    private Atributo atributosIniciais;
+    private Atributo a;
+    private Atributo b;
+    private Atributo c;
 
 
-    public Classe(String nome, Atributo atributosIniciais) {
+    public Classe(String nome, Atributo a, Atributo b, Atributo c) {
         this.nome = nome;
-        this.atributosIniciais = atributosIniciais;
+        this.a = a;
+        this.b = b;
+        this.c = c;
     }
 
     public String getNome() {
@@ -21,29 +25,52 @@ public class Classe {
         this.nome = nome;
     }
 
-    public Atributo getAtributosIniciais() {
-        return atributosIniciais;
+    public Atributo getA() {
+        return a;
+    }
+    public Atributo getB() {
+        return b;
     }
 
-    public void setAtributosIniciais(Atributo atributosIniciais) {
-        this.atributosIniciais = atributosIniciais;
+    public void setA(Atributo a) {
+        this.a = a;
+    }
+    public void setB(Atributo b) {
+        this.b = b;
     }
 
+    public Atributo getC() {
+        return c;
+    }
 
+    public void setC(Atributo c) {
+        this.c = c;
+    }
+
+    @Override
     public String toString() {
-        return  "\nClasses:" +
-                "\n1 - Mago" +
-                "\n2 - Guerreiro" +
-                "\n3 - Ladino";
+        return "Classe{" +
+                "nome='" + nome + '\'' +
+                ", a=" + a +
+                ", b=" + b +
+                '}';
     }
 
-    public void defAtributos(){
-        if(this.atributosIniciais.getValor() + 2 < this.atributosIniciais.getValorMaximo()){
-            this.atributosIniciais.incremento(2);
-        }else{
-            System.out.println("Valor máximo de atributo já atribuído.");
-        }
+    public void setMago(){
+        this.a.incremento(3);
+        this.b.incremento(2);
     }
+
+    public void setGuerreiro(){
+        this.a.incremento(3);
+        this.b.incremento(2);
+    }
+
+    public void setLadino(){
+        this.a.incremento(3);
+        this.b.incremento(2);;
+    }
+
 }
 
 

@@ -1,23 +1,24 @@
 import personagem.Personagem;
 import personagem.atributo.Atributo;
-import personagem.atributo.Vida;
-import personagem.classe.Classe;
-import personagem.classe.Guerreiro;
-import personagem.classe.Ladino;
-import personagem.classe.Mago;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Ficha {
 
+
     static Scanner input = new Scanner(System.in);
-    static Controlador controlador = new Controlador();
     static ArrayList<Personagem>arrayPersonagens;
+    static ArrayList<Atributo>arrayAtributo;
 
+    static Atributo inteligencia = new Atributo("Inteligencia", 0);
+    static Atributo forca = new Atributo("Forca", 0);
+    static Atributo vida = new Atributo("Vida", 1);
 
+    static Controlador controlador = new Controlador(inteligencia, forca, vida);
     public static void main(String[] args) {
-        arrayPersonagens = new ArrayList<>();
+        arrayPersonagens = new ArrayList<Personagem>();
+        arrayAtributo = new ArrayList<Atributo>();
         operacoes();
     }
 
@@ -36,19 +37,7 @@ public class Ficha {
         switch(opc) {
             case 1:
                 criarPersonagem();
-                break;
-            case 2:
-                listarClasses();
-                break;
-            case 3:
-                listarEspecies();
-                break;
-            case 4:
-                listarPoderes();
-                break;
-            case 5:
-                listarPersonagens();
-                break;
+                System.exit(0);
             case 6:
                 System.out.println("Encerrando programa.");
                 System.exit(0);
@@ -63,14 +52,38 @@ public class Ficha {
 
     public static void criarPersonagem() {
 
+
         System.out.println("\nNome: ");
         String nome = input.next();
         System.out.println("\nEspécie: ");
-        int especie = input.nextInt();
+        int opcEspecie = input.nextInt();
         System.out.println("\nClasse: ");
-        int classe = input.nextInt();
+        int opcClasse = input.nextInt();
+        System.out.println("\nPoder: ");
+        int opcPoder = input.nextInt();
 
-        Personagem personagem = new Personagem(nome, controlador.initEspecie(especie),controlador.initClass(classe), )
+
+        Personagem personagem = new Personagem(
+                nome,
+                controlador.initEspecie(opcEspecie),
+                controlador.initClass(opcClasse),
+                controlador.initPoder(opcPoder),
+                controlador.getInteligencia(),
+                controlador.getForca(),
+                controlador.getVida());
+        System.out.println(personagem);
+        arrayPersonagens.add(personagem);
+        operacoes();
     }
 
+    public static void listarPersonagens(){
+        if(!arrayPersonagens.isEmpty()){
+            for(Personagem personagem: arrayPersonagens){
+                System.out.println(personagem);
+            }
+        }else {
+            System.out.println("Não há registro de personagens.");
+        }
+        operacoes();
+    }
 }

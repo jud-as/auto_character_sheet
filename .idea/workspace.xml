@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c01124dd-b169-498a-b591-83955a2e4855" name="Changes" comment="classes e atributos inicializados transferidos para Controlador" />
+    <list default="true" id="c01124dd-b169-498a-b591-83955a2e4855" name="Changes" comment="classes e atributos inicializados transferidos para Controlador">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controlador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ficha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ficha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personagem/Equipamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personagem/equipamento/Equipamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personagem/Personagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personagem/Personagem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personagem/atributo/Atributo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personagem/atributo/Atributo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personagem/atributo/Vida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personagem/classe/Classe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personagem/classe/Classe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personagem/classe/Guerreiro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personagem/classe/Ladino.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personagem/classe/Mago.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personagem/especie/Especie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personagem/especie/Especie.java" afterDir="false" />
+    </list>
+    <list id="fba6b5b4-9d01-4bc6-9cea-02a1253667c5" name="Changes by eduar" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Controlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controlador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personagem/Equipamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personagem/equipamento/Equipamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personagem/atributo/Atributo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personagem/atributo/Atributo.java" afterDir="false" />
+    </list>
+    <list id="4f96401e-4404-492c-aad4-f43d856b498a" name="Changes by lucas" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +53,67 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/personagem/equipamento/Equipamento.java">
+      <ranges>
+        <range start1="0" end1="1" start2="0" end2="1" changelist="fba6b5b4-9d01-4bc6-9cea-02a1253667c5" />
+        <range start1="2" end1="4" start2="2" end2="2" changelist="c01124dd-b169-498a-b591-83955a2e4855" />
+        <range start1="8" end1="9" start2="6" end2="7" changelist="fba6b5b4-9d01-4bc6-9cea-02a1253667c5" />
+        <range start1="11" end1="12" start2="9" end2="10" changelist="fba6b5b4-9d01-4bc6-9cea-02a1253667c5" />
+        <range start1="14" end1="15" start2="12" end2="13" changelist="fba6b5b4-9d01-4bc6-9cea-02a1253667c5" />
+        <range start1="20" end1="22" start2="18" end2="19" changelist="fba6b5b4-9d01-4bc6-9cea-02a1253667c5" />
+        <range start1="25" end1="25" start2="22" end2="23" changelist="fba6b5b4-9d01-4bc6-9cea-02a1253667c5" />
+        <range start1="29" end1="30" start2="27" end2="28" changelist="fba6b5b4-9d01-4bc6-9cea-02a1253667c5" />
+        <range start1="33" end1="35" start2="31" end2="34" changelist="fba6b5b4-9d01-4bc6-9cea-02a1253667c5" />
+        <range start1="37" end1="39" start2="36" end2="38" changelist="fba6b5b4-9d01-4bc6-9cea-02a1253667c5" />
+        <range start1="43" end1="47" start2="42" end2="46" changelist="fba6b5b4-9d01-4bc6-9cea-02a1253667c5" />
+        <range start1="50" end1="50" start2="49" end2="53" changelist="fba6b5b4-9d01-4bc6-9cea-02a1253667c5" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/personagem/atributo/Atributo.java">
+      <ranges>
+        <range start1="2" end1="3" start2="2" end2="3" changelist="fba6b5b4-9d01-4bc6-9cea-02a1253667c5" />
+        <range start1="5" end1="6" start2="5" end2="6" changelist="c01124dd-b169-498a-b591-83955a2e4855" />
+        <range start1="35" end1="36" start2="35" end2="36" changelist="fba6b5b4-9d01-4bc6-9cea-02a1253667c5" />
+        <range start1="42" end1="44" start2="42" end2="44" changelist="fba6b5b4-9d01-4bc6-9cea-02a1253667c5" />
+        <range start1="45" end1="46" start2="45" end2="46" changelist="fba6b5b4-9d01-4bc6-9cea-02a1253667c5" />
+        <range start1="50" end1="52" start2="50" end2="52" changelist="fba6b5b4-9d01-4bc6-9cea-02a1253667c5" />
+        <range start1="53" end1="54" start2="53" end2="54" changelist="fba6b5b4-9d01-4bc6-9cea-02a1253667c5" />
+        <range start1="55" end1="55" start2="55" end2="56" changelist="fba6b5b4-9d01-4bc6-9cea-02a1253667c5" />
+        <range start1="57" end1="57" start2="58" end2="59" changelist="fba6b5b4-9d01-4bc6-9cea-02a1253667c5" />
+        <range start1="58" end1="59" start2="60" end2="60" changelist="fba6b5b4-9d01-4bc6-9cea-02a1253667c5" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/Controlador.java">
+      <ranges>
+        <range start1="0" end1="1" start2="0" end2="0" changelist="c01124dd-b169-498a-b591-83955a2e4855" />
+        <range start1="2" end1="3" start2="1" end2="1" changelist="c01124dd-b169-498a-b591-83955a2e4855" />
+        <range start1="4" end1="7" start2="2" end2="2" changelist="c01124dd-b169-498a-b591-83955a2e4855" />
+        <range start1="8" end1="8" start2="3" end2="7" changelist="c01124dd-b169-498a-b591-83955a2e4855" />
+        <range start1="9" end1="10" start2="8" end2="9" changelist="c01124dd-b169-498a-b591-83955a2e4855" />
+        <range start1="14" end1="17" start2="13" end2="47" changelist="c01124dd-b169-498a-b591-83955a2e4855" />
+        <range start1="20" end1="21" start2="50" end2="50" changelist="c01124dd-b169-498a-b591-83955a2e4855" />
+        <range start1="26" end1="27" start2="55" end2="57" changelist="c01124dd-b169-498a-b591-83955a2e4855" />
+        <range start1="29" end1="29" start2="59" end2="60" changelist="fba6b5b4-9d01-4bc6-9cea-02a1253667c5" />
+        <range start1="30" end1="31" start2="61" end2="63" changelist="c01124dd-b169-498a-b591-83955a2e4855" />
+        <range start1="33" end1="33" start2="65" end2="66" changelist="c01124dd-b169-498a-b591-83955a2e4855" />
+        <range start1="34" end1="35" start2="67" end2="69" changelist="c01124dd-b169-498a-b591-83955a2e4855" />
+        <range start1="37" end1="37" start2="71" end2="72" changelist="c01124dd-b169-498a-b591-83955a2e4855" />
+        <range start1="41" end1="41" start2="76" end2="77" changelist="c01124dd-b169-498a-b591-83955a2e4855" />
+        <range start1="45" end1="46" start2="81" end2="82" changelist="c01124dd-b169-498a-b591-83955a2e4855" />
+        <range start1="51" end1="52" start2="87" end2="89" changelist="c01124dd-b169-498a-b591-83955a2e4855" />
+        <range start1="53" end1="53" start2="90" end2="91" changelist="c01124dd-b169-498a-b591-83955a2e4855" />
+        <range start1="55" end1="56" start2="93" end2="95" changelist="c01124dd-b169-498a-b591-83955a2e4855" />
+        <range start1="57" end1="57" start2="96" end2="97" changelist="c01124dd-b169-498a-b591-83955a2e4855" />
+        <range start1="59" end1="60" start2="99" end2="101" changelist="c01124dd-b169-498a-b591-83955a2e4855" />
+        <range start1="61" end1="61" start2="102" end2="103" changelist="c01124dd-b169-498a-b591-83955a2e4855" />
+        <range start1="66" end1="66" start2="108" end2="112" changelist="c01124dd-b169-498a-b591-83955a2e4855" />
+        <range start1="67" end1="67" start2="113" end2="115" changelist="c01124dd-b169-498a-b591-83955a2e4855" />
+        <range start1="68" end1="69" start2="116" end2="132" changelist="c01124dd-b169-498a-b591-83955a2e4855" />
+        <range start1="72" end1="72" start2="135" end2="137" changelist="c01124dd-b169-498a-b591-83955a2e4855" />
+      </ranges>
+    </file>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -48,22 +128,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/guilh/OneDrive/Área de Trabalho/Serial Experiments/java/GUILHERME YAGO VALENTE UC22200104/ficha_rpg/ficha_rpg&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/guilh/OneDrive/Área de Trabalho/Serial Experiments/java/GUILHERME YAGO VALENTE UC22200104/ficha_rpg/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Ficha.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "devItem",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/guilh/OneDrive/Área de Trabalho/Serial Experiments/java/GUILHERME YAGO VALENTE UC22200104/ficha_rpg/ficha_rpg/src/personagem",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/guilh/OneDrive/Área de Trabalho/Serial Experiments/java/GUILHERME YAGO VALENTE UC22200104/ficha_rpg/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\guilh\OneDrive\Área de Trabalho\Serial Experiments\java\GUILHERME YAGO VALENTE UC22200104\ficha_rpg\ficha_rpg\src\personagem" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -89,7 +175,8 @@
       <workItem from="1715188047781" duration="989000" />
       <workItem from="1715189538177" duration="3541000" />
       <workItem from="1715344539404" duration="3141000" />
-      <workItem from="1715354942557" duration="5017000" />
+      <workItem from="1715354942557" duration="13526000" />
+      <workItem from="1715374142822" duration="13496000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />

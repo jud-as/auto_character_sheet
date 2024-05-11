@@ -4,13 +4,19 @@ import personagem.atributo.Atributo;
 
 public class Especie {
     private String nome;
-    private Atributo atributosIniciais;
+    private Atributo a;
+    private Atributo b;
+    private Atributo c;
 
 
-    public Especie(String nome, Atributo atributosIniciais) {
+    public Especie(String nome, Atributo a, Atributo b, Atributo c) {
         this.nome = nome;
-        this.atributosIniciais = atributosIniciais;
+        this.a = a;
+        this.b = b;
+        this.c = c;
     }
+
+
 
     public String getNome() {
         return nome;
@@ -20,29 +26,50 @@ public class Especie {
         this.nome = nome;
     }
 
-    public Atributo getAtributosIniciais() {
-        return atributosIniciais;
+    public Atributo getA() {
+        return a;
     }
 
-    public void setAtributosIniciais(Atributo atributosIniciais) {
-        this.atributosIniciais = atributosIniciais;
+    public void setA(Atributo a) {
+        this.a = a;
     }
 
+    public Atributo getB() {
+        return b;
+    }
 
+    public void setB(Atributo b) {
+        this.b = b;
+    }
+
+    public Atributo getC() {
+        return c;
+    }
+
+    public void setC(Atributo c) {
+        this.c = c;
+    }
+
+    @Override
     public String toString() {
-        return  "Especie{" +
+        return "Especie{" +
                 "nome='" + nome + '\'' +
-                ", atributosIniciais=" + atributosIniciais +
+                ", a=" + a +
+                ", b=" + b +
                 '}';
     }
-
-    public void defAtributos(){
-        if(this.atributosIniciais.getValor() + 1 < this.atributosIniciais.getValorMaximo()){
-            this.atributosIniciais.incremento(1);
-        }else{
-            System.out.println("Valor máximo de atributo já atribuído.");
-        }
+    public void setHumano(){
+        this.getA().incremento(3);
+        this.getB().incremento(2);
     }
 
+    public void setElfo(){
+        this.getA().incremento(3);
+        this.getB().incremento(2);
+    }
 
+    public void setDragonborn(){
+        this.getA().incremento(3);
+        this.getB().incremento(2);
+    }
 }
